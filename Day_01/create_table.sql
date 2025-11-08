@@ -1,15 +1,38 @@
+DROP TABLE IF EXISTS icc_world_cup;
 
-DROP TABLE if exists icc_world_cup;
-create table icc_world_cup
-(
-Team_1 Varchar(20),
-Team_2 Varchar(20),
-Winner Varchar(20)
-);
-INSERT INTO icc_world_cup values('India','SL','India');
-INSERT INTO icc_world_cup values('SL','Aus','Aus');
-INSERT INTO icc_world_cup values('SA','Eng','Eng');
-INSERT INTO icc_world_cup values('Eng','NZ','NZ');
-INSERT INTO icc_world_cup values('Aus','India','India');
+CREATE TABLE
+    icc_world_cup (
+        Team_1 VARCHAR(20),
+        Team_2 VARCHAR(20),
+        Winner VARCHAR(20)
+    );
 
-select * from icc_world_cup;
+INSERT INTO
+    icc_world_cup
+VALUES
+    ('India', 'SL', 'India');
+
+INSERT INTO
+    icc_world_cup
+VALUES
+    ('SL', 'Aus', 'Aus');
+
+INSERT INTO
+    icc_world_cup
+VALUES
+    ('SA', 'Eng', 'Eng');
+
+INSERT INTO
+    icc_world_cup
+VALUES
+    ('Eng', 'NZ', 'NZ');
+
+INSERT INTO
+    icc_world_cup
+VALUES
+    ('Aus', 'India', 'India');
+
+SELECT
+    *
+FROM
+    icc_world_cup;

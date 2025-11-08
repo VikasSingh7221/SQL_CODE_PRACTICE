@@ -1,0 +1,11 @@
+sudo apt update
+sudo apt install sqlite3 -y
+
+
+
+paste 
+"code-runner.executorMap": {
+    "sql": "sqlite3 -header -column mydb.db <"
+},
+"code-runner.runInTerminal": true
+in command + shift + p

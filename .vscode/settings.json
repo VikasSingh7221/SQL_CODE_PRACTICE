@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode",
+    "editor.formatOnType": true
+  },
+  "prettier.sqlFormatter.uppercase": true,
+  "code-runner.executorMap": {
+    "sql": "sqlite3 -header -column mydb.db <"
+  },
+  "code-runner.runInTerminal": true
+}
