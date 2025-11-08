@@ -1,54 +1,54 @@
-drop table if exists emp;
+DROP TABLE IF EXISTS emp;
 
-create table
+CREATE TABLE
     emp (
-        emp_id int,
-        emp_name varchar(10),
-        salary int,
-        manager_id int
+        emp_id INT,
+        emp_name VARCHAR(10),
+        salary INT,
+        manager_id INT
     );
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (1, 'Ankit', 10000, 4);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (2, 'Mohit', 15000, 5);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (3, 'Vikas', 10000, 4);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (4, 'Rohit', 5000, 2);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (5, 'Mudit', 12000, 6);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (6, 'Agam', 12000, 2);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (7, 'Sanjay', 9000, 2);
 
-insert into
+INSERT INTO
     emp
-values
+VALUES
     (8, 'Ashish', 5000, 2);
 
-select
+SELECT
     *
-from
+FROM
     emp;
