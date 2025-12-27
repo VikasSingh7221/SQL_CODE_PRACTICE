@@ -1,7 +1,7 @@
 {
   "editor.formatOnSave": true,
   "[sql]": {
-    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode",
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
     "editor.formatOnType": true
   },
   "prettier.sqlFormatter.uppercase": true,
